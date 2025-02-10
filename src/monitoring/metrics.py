@@ -2,7 +2,7 @@ from typing import List, Dict, Optional, Union, Any
 import torch
 import torch.nn.functional as F
 from collections import defaultdict
-from core.config.configurations import ModelConfig
+from src.core.config.configurations import ModelConfig
 
 class LossComputer:
     """Advanced loss computation with multiple objectives"""

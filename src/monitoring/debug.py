@@ -3,8 +3,8 @@ from collections import defaultdict
 import torch
 import numpy as np
 from typing import Dict, List, Optional, Any
-from core.config.configurations import ModelConfig
-from model.transformer import HyperbolicTransformer
+from src.core.config.configurations import ModelConfig
+from src.model.transformer import HyperbolicTransformer
 
 class DebugMonitor:
     """Monitor and debug model behavior"""

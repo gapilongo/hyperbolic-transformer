@@ -8,8 +8,8 @@ import psutil
 import numpy as np
 from typing import Dict, List, Optional, Any
 from torch.utils.tensorboard import SummaryWriter
-from core.config.configurations import ModelConfig
-from model.transformer import HyperbolicTransformer
+from src.core.config.configurations import ModelConfig
+from src.model.transformer import HyperbolicTransformer
 @dataclass
 class PerformanceMetrics:
     """Track various performance metrics"""

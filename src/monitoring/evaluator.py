@@ -4,9 +4,9 @@ from tqdm import tqdm
 from torch.utils.data import DataLoader
 import torch.nn.functional as F
 from typing import Dict, List, Optional, Tuple, Union, Any
-from core.config.configurations import ModelConfig
-from model.transformer import HyperbolicTransformer
-from data.tokenizer import EnhancedTokenizer
+from src.core.config.configurations import ModelConfig
+from src.model.transformer import HyperbolicTransformer
+from src.data.tokenizer import EnhancedTokenizer
 
 
 class ModelEvaluator:

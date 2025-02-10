@@ -4,8 +4,8 @@ import torch
 import psutil
 from typing import Dict, List, Optional, Any
 import gc
-from core.config.configurations import ModelConfig
-from model.transformer import HyperbolicTransformer
+from src.core.config.configurations import ModelConfig
+from src.model.transformer import HyperbolicTransformer
 
 class MemoryManager:
     """Manage memory usage during training"""
